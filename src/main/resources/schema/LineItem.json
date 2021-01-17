@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "javaType": "guru.learningjournal.kafka.examples.types.LineItem",
+  "properties": {
+    "ItemCode": {"type": "string"},
+    "ItemDescription": {"type": "string"},
+    "ItemPrice": {"type": "number"},
+    "ItemQty": {"type": "integer"},
+    "TotalValue": {"type": "number"},
+    "TotalValue1": {
+      "type": "object",
+    "properties": {
+      "ItemCode1": {
+        "type": "string"
+      },
+      "ItemDescription1": {
+        "type": "string"
+      },
+      "ItemPrice1": {
+        "type": "number"
+      },
+      "ItemQty1": {
+        "type": "integer"
+      }
+    }
+
+
+    }
+
+
+  }
+}
